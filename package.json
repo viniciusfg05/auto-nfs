@@ -1,0 +1,29 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "lint-fix": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.3",
+    "express": "^4.18.2",
+    "puppeteer": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/csv-parse": "^1.2.2",
+    "@types/express": "^4.17.15",
+    "@types/multer": "^1.4.7",
+    "@types/puppeteer": "^7.0.4",
+    "multer": "^1.4.5-lts.1",
+    "ts-node-dev": "^2.0.0",
+    "eslint": "8.39.0",
+    "@rocketseat/eslint-config": "1.2.0",
+    "typescript": "^4.9.3"
+  }
+}
